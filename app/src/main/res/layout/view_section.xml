@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="25dip">
+
+    <TextView
+        android:id="@+id/sectionTitle"
+        android:textSize="15sp"
+        android:textColor="#F5F5F5"
+        android:paddingRight="15dip"
+        android:paddingLeft="15dip"
+        android:gravity="right|center_vertical"
+        android:background="#417907"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

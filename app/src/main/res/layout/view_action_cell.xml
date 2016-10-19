@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/transparent"
+    android:layout_width="72dip"
+    android:layout_height="72dip">
+
+    <View
+        android:id="@+id/animationView"
+        android:layout_centerInParent="true"
+        android:layout_width="48dip"
+        android:background="@drawable/view_circle"
+        android:layout_height="48dip" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="48dip"
+        android:padding="10dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/view_circle_menu_item_base_bg"
+        android:layout_height="48dip" />
+
+</RelativeLayout>

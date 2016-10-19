@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/translate_bg"
+    android:layout_height="40dip">
+
+    <TextView
+        android:id="@+id/translateTitle"
+        android:textSize="15sp"
+        android:textColor="#417907"
+        android:paddingRight="15dip"
+        android:paddingLeft="15dip"
+        android:gravity="left|center_vertical"
+        android:background="#F5F5F5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/listenView"
+        android:src="@drawable/ic_listen"
+        android:padding="9dip"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dip"
+        android:layout_alignParentRight="true"
+        android:layout_width="36dip"
+        android:layout_height="36dip" />
+
+</RelativeLayout>

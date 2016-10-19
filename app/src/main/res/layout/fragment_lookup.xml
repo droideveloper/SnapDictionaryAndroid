@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="85"
+            android:weightSum="100"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="85"
+                android:layout_height="match_parent">
+
+                <ListView
+                    android:id="@+id/listView"
+                    android:fadingEdge="none"
+                    android:fadingEdgeLength="0dip"
+                    android:divider="@null"
+                    android:scrollbarThumbVertical="@drawable/vertical_track_ball"
+                    android:scrollbarTrackVertical="@drawable/vertical_track_line"
+                    android:dividerHeight="0dip"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/closeView"
+        android:src="@drawable/ic_close"
+        android:layout_width="36dip"
+        android:padding="5dip"
+        android:layout_alignParentRight="true"
+        android:layout_height="36dip" />
+
+
+</RelativeLayout>

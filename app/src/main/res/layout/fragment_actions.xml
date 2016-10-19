@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_alignParentRight="true"
+        android:layout_width="74dip"
+        android:background="@android:color/transparent"
+        android:fadingEdgeLength="0dip"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0dip"
+        android:scrollbars="none"
+        android:layout_height="72dip"/>
+
+    <RelativeLayout
+        android:padding="1dip"
+        android:id="@+id/viewHolder"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="72dip">
+
+        <include
+            android:id="@+id/zoomControlView"
+            android:visibility="gone"
+            layout="@layout/view_zoom_controller" />
+
+    </RelativeLayout>
+</RelativeLayout>

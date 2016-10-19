@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:layout_height="match_parent">
+
+    <org.fs.dictionary.view.CameraPreviewView
+        android:id="@+id/cameraPreviewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:layout_width="72dip"
+        android:id="@+id/captureHolder"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dip"
+        android:layout_centerHorizontal="true"
+        android:layout_height="72dip">
+
+        <View
+            android:id="@+id/captureAnimationView"
+            android:layout_centerInParent="true"
+            android:layout_width="48dip"
+            android:background="@drawable/view_circle"
+            android:layout_height="48dip" />
+
+        <ImageView
+            android:id="@+id/captureView"
+            android:layout_width="48dp"
+            android:layout_centerInParent="true"
+            android:padding="10dip"
+            android:background="@drawable/view_circle_menu_item_base_bg"
+            android:src="@drawable/ic_camera"
+            android:layout_height="48dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

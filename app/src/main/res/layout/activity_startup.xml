@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mainGuidePager"
+        android:layout_height="match_parent"
+        android:fadingEdgeLength="0dip"
+        android:fadingEdge="none"
+        android:paddingTop="10dip"
+        android:background="#F5F5F5"
+        android:layout_width="match_parent" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_alignParentBottom="true"
+        android:id="@+id/navigationGuidePager"
+        android:background="@drawable/view_navigation_page_top"
+        android:fadingEdgeLength="0dip"
+        android:fadingEdge="none"
+        android:layout_width="match_parent"
+        android:layout_height="150dip" />
+
+    <org.fs.dictionary.library.CirclePageIndicator
+        android:layout_width="match_parent"
+        android:layout_above="@id/navigationGuidePager"
+        android:id="@+id/circlePagerIndicator"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

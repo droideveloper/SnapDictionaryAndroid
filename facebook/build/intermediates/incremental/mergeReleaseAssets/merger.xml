@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Fatih/Documents/Frameworks/Android/SnapDictionary/facebook/src/main/assets"/><source path="/Users/Fatih/Documents/Frameworks/Android/SnapDictionary/facebook/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/Fatih/Documents/Frameworks/Android/SnapDictionary/facebook/src/release/assets"/></dataSet></merger>

@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="0.0.1b"
+    package="org.fs.ghanaian">
+
+    <uses-sdk android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+<!-- internet and cache stuff -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

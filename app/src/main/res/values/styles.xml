@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:seekBarStyle">@style/SeekBarSnapDictionary</item>
+    </style>
+
+    <style name="ThemeWithActionbar" parent="Theme.AppCompat.Light">
+        <!--<item name="android:toolbarStyle">@style/GreenActionbar</item>-->
+        <!--<item name="android:actionBarStyle">@style/GreenActionbar</item>-->
+        <!--<item name="android:colorPrimary">#417907</item>-->
+        <!--<item name="android:colorPrimaryDark">#417907</item>-->
+
+        <item name="colorPrimary">#417907</item>
+        <item name="colorPrimaryDark">#417907</item>
+
+    </style>
+
+    <style name="GreenActionbar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- holo and up -->
+        <item name="android:background">@drawable/green_actionbar_background</item>
+        <item name="android:height">70dip</item>
+
+        <!-- support library stuff -->
+        <item name="background">@drawable/green_actionbar_background</item>
+        <item name="height">70dip</item>
+    </style>
+
+    <style name="CoreDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="SeekBarSnapDictionary" parent="android:Widget.Holo.Light.SeekBar">
+        <item name="android:progressDrawable">@drawable/snapdictionary_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/snapdictionary_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:thumb">@drawable/snapdictionary_scrubber_control_selector_holo_light</item>
+    </style>
+
+</resources>
